@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Javascript</title>
+    <style>
+        #demo {
+            color: #333;
+        }
+
+        h1 {
+            color: chocolate;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Belajar Javascript</h1>
-    <p id="demo">Hello @_@</p>
+    <p id="demo"></p>
 
-    <button type="button" onclick='document.getElementById("demo").innerHTML="Hellooowww"'>Click Here!</button>
+    <script>
+        document.getElementById("demo").innerHTML = "My First Javascript";
+    </script>
 </body>
 </html>
